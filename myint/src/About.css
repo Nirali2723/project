@@ -1,0 +1,133 @@
+.abt1{
+    height: 600px;
+    width: 100%;   
+     background-image: url("images/abt.jpg") ;
+     background-repeat: no-repeat;
+     background-size: cover; 
+    }
+
+
+ .abtcon{
+color: white;
+padding: 61px 34px 24px 59px;
+font-size: 30px;
+}
+
+.abtpara{
+    font-size: 18px;
+    color: white;
+    margin-right: 25em;
+    padding: 9px 16px 14px 57px;
+} 
+
+
+.divp{
+    display: inline;
+}
+
+
+.divh{
+    display: inline;
+    width: 18px;
+}
+
+.abtdiv{
+    margin-top: 40px;
+    width: 100%;
+   margin-left: 23px;
+   
+}
+
+.abtdiv1{
+    width: 35em;
+    position: relative;
+    padding: 20px 0px 20px 0px;
+  
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-name: fadeInLeft ;
+}
+
+@keyframes fadeInLeft {
+    0% {
+       opacity: 0;
+       transform: translateX(-50px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateX(23em);
+    }
+ }
+
+ .fadeInLeft {
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+    } 
+  
+.abtdiv2{
+
+    margin-left: 26em;
+    width: 35em;
+    position: relative;
+   animation-name: fadeInRight;
+   -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+   
+}
+
+@keyframes fadeInRight{
+    0% {
+       opacity: 0.5;
+       transform: translateX(300px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateX(-50px);
+    }
+ }
+
+ .fadeInRight {
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+    } 
+
+
+
+.abtbtn{
+    text-decoration: none;
+}
+
+.teamdiv{
+    display: flex;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.tdiv{
+    border: 1px solid black;
+    width: 19%;
+    height: 350px;
+    margin: 4px 4px 4px 2px;
+    padding: 20px 10px 10px 10px;
+}
+
+.profileimg{
+    height: 123px;
+    margin: 5px 0px 4px 73px;
+    /* padding: 10px 12px 14px 42px; */
+    /* width: 103px; */
+    border: 1px solid black;
+    border-radius: 7%;
+}
+.avtar{
+    text-align: center;
+    height: 123px;
+}
+
+.abtname{
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+}

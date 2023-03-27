@@ -1,0 +1,39 @@
+
+.n1{
+ 
+    display: flex;
+    height: 140px;
+    color: black;
+    background-color:black;
+   
+}
+.lg{
+    height: 140px;
+    width: 200px;
+}
+.it{
+    display: flex;
+    margin-top: 51px;
+}
+.ul1{
+    display: flex;
+}
+.ul1 li {
+     list-style-type: none;
+}
+.ul1 li a{
+    text-decoration: none;
+    padding: 2px 27px 2px 31px;
+    font-size: 21px;
+    color:white
+   
+}
+.btnm{
+    font-size: 17px;
+    margin-left: 67px;
+    margin-top: 24px;
+    background-color:  rgb(157, 237, 237);
+    border: 2px solid  rgb(58, 5, 83);
+    border-radius: 5px;
+    padding: 6px 13px 6px 13px;
+}
